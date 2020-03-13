@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/RandomMeal/static/css/main.6b8f1a95.chunk.css",
+    "main.js": "/RandomMeal/static/js/main.7ff3c408.chunk.js",
+    "main.js.map": "/RandomMeal/static/js/main.7ff3c408.chunk.js.map",
+    "runtime-main.js": "/RandomMeal/static/js/runtime-main.6572db35.js",
+    "runtime-main.js.map": "/RandomMeal/static/js/runtime-main.6572db35.js.map",
+    "static/css/2.47e06e2e.chunk.css": "/RandomMeal/static/css/2.47e06e2e.chunk.css",
+    "static/js/2.aa1421f9.chunk.js": "/RandomMeal/static/js/2.aa1421f9.chunk.js",
+    "static/js/2.aa1421f9.chunk.js.map": "/RandomMeal/static/js/2.aa1421f9.chunk.js.map",
+    "index.html": "/RandomMeal/index.html",
+    "precache-manifest.5aeb6a9e41e7f9065dadfb4b7fb036a8.js": "/RandomMeal/precache-manifest.5aeb6a9e41e7f9065dadfb4b7fb036a8.js",
+    "service-worker.js": "/RandomMeal/service-worker.js",
+    "static/css/2.47e06e2e.chunk.css.map": "/RandomMeal/static/css/2.47e06e2e.chunk.css.map",
+    "static/css/main.6b8f1a95.chunk.css.map": "/RandomMeal/static/css/main.6b8f1a95.chunk.css.map",
+    "static/js/2.aa1421f9.chunk.js.LICENSE.txt": "/RandomMeal/static/js/2.aa1421f9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6572db35.js",
+    "static/css/2.47e06e2e.chunk.css",
+    "static/js/2.aa1421f9.chunk.js",
+    "static/css/main.6b8f1a95.chunk.css",
+    "static/js/main.7ff3c408.chunk.js"
+  ]
+}
