@@ -10,7 +10,6 @@ for(let i = 1; i <=20; i ++){
         break;
     }
 }
-console.log(ingredients);
 const showIngredients = ingredients.map((item) => <li key={item}> {item}</li>)
 return (
 <ul>{showIngredients}</ul>

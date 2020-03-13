@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import ShowRecipe from './showRecipe';
+import Header from './Header';
 
 class App extends Component {
   constructor(props) {
@@ -26,17 +27,15 @@ class App extends Component {
 }
 
   render(){
-    console.log(this.state.data);
   return (
     <div className="App">
+      <Header/>
       <div className="title">
         <h1>
           Feeling hungry?
         </h1>
-        <h4>
-          Get a random meal !
-        </h4>
-        <button onClick={this.handleClick}>Get Meal!</button>
+        
+        <button className="btnMeal" onClick={this.handleClick}>Get a random meal!</button>
         </div>
       {this.state.isShow ? <ShowRecipe data={this.state.data[0]}/> : null }
     </div>
