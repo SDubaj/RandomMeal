@@ -9,7 +9,7 @@ class App extends Component {
     // Nie wywołuj tutaj this.setState()!
     this.state = { 
       data:[] ,
-      isShow:false
+      isShown:false
     };
     this.handleClick = this.handleClick.bind(this);
   } 
@@ -18,13 +18,11 @@ class App extends Component {
     
     fetch('https://www.themealdb.com/api/json/v1/1/random.php')
 		.then(response => response.json())
-      .then(response => this.setState({ data: response.meals, isShow:true})
+      .then(response => this.setState({ data: response.meals, isShown:true})
       
       );
   }
-  saySomething(something) {
-    console.log(something);
-}
+  
 
   render(){
   return (
@@ -35,9 +33,9 @@ class App extends Component {
           Feeling hungry?
         </h1>
         
-        <button className="btnMeal" onClick={this.handleClick}>Get a random meal!</button>
+        <button className="myButton" onClick={this.handleClick}>Get a random meal!</button>
         </div>
-      {this.state.isShow ? <ShowRecipe data={this.state.data[0]}/> : null }
+      {this.state.isShown ? <ShowRecipe data={this.state.data[0]}/> : null }
     </div>
   );
 }

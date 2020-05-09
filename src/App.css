@@ -1,17 +1,44 @@
+.container{
+  border:1px solid black;
+  padding:10px;
+}
+html, body {
+  overflow-x: hidden;
+}
+body {
+  min-height: 100vh;
+  width: 100%;
+  position: relative
+}
+.dinnerImg {
+  margin:10px;
+  width:90%;
+}
+ul{
+  text-align: left;
+}
+.videowrapper {
+  float: none;
+  clear: both;
+  width: 100%;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+}
+.title{
+  padding:30px;
+}
+
 .App {
   text-align: center;
   
 }
 .ingredients{
-  text-align: center;
-  
+  text-align: center; 
 }
 hr{
   border:1px solid black;
-}
-.btnMeal{
-  background-color:rgb(202, 202, 202)n;
-  padding:10px
 }
 .container{
   background-color: rgb(226, 226, 226);
@@ -25,13 +52,45 @@ hr{
 }
 
 @media screen and (max-width: 766px) {
+  body{
+    overflow-x: hidden;
+  }
   .navbar-brand
   {
       position: absolute;
       left: 50%;
       transform: translateX(-50%);
   }
-.navbar{
-  height:70px;
+  .navbar{
+    height:70px;
+  }
 }
+p{
+  padding:15px;
 }
+
+.myButton {
+	background:linear-gradient(to bottom, #f5f5f5 5%, #d4d0d4 100%);
+	background-color:#f5f5f5;
+	border-radius:12px;
+	border:2px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#4a464a;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:15px 30px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #d4d0d4 5%, #f5f5f5 100%);
+	background-color:#d4d0d4;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+        
+button:focus {outline:none !important;}
